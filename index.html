@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Homepage</title>
+
+	<!-- Jquery -->
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+	
+	<!-- ==== Icon ==== -->
+	<script src="https://kit.fontawesome.com/9fd2f42e98.js" crossorigin="anonymous"></script>
+
+	<!-- ==== Css Link ==== -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<div id="toggle">
+			<i id="bar" class="fa fa-bars"></i>
+			<h1 class="title">Welcome To Dashboard</h1>
+		</div>
+		<form id="search-bar">
+			<input type="search" name="search" id="search" placeholder="Search">
+			<button class="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+		</form>	
+		<div id="users-bar">
+			<div id="user">
+				<span class="icon"><i class="fa-solid fa-print" id="save">
+					<span class="save">Print</span>
+				</i>
+				</span>
+				<span class="icon"><i class="fa-solid fa-download" id="save">
+					<span class="save">Download</span>
+				</i>
+				</span>
+				<span class="user-icon"><i class="fa-solid fa-user" id="save">
+					<span class="save">Logout</span>
+				</i>
+				</span>
+			</div>
+		</div>
+	</header>
+
+	<section id="nav-bar">
+		<nav>
+			<div class="logo">
+				<i class="fa-solid fa-coins"></i>
+			</div>
+			<ul>
+				<span class="opac">Main</span>
+				<li class="list-item active">
+					<a href="#">
+						<span class="icon"><i class="fa-solid fa-house"></i></span>
+						<span class="text">Dashboard</span>
+					</a>
+				</li>
+				<span class="opac">Features</span>
+				<li class="list-item">
+					<a href="#">
+						<span class="icon"><i class="fa-solid fa-bell"></i></span>
+						<span class="text">Notification</span>
+					</a>
+				</li>
+				<li class="list-item">
+					<a href="#">
+						<span class="icon"><i class="fa-solid fa-envelope"></i></span>
+						<span class="text">Inbox</span>
+					</a>
+				</li>
+				<li class="list-item">
+					<a href="#">
+						<span class="icon"><i class="fa-solid fa-chart-simple"></i></span>
+						<span class="text">Statistics</span>
+					</a>
+				</li>
+				<li class="list-item">
+					<a href="#">
+						<span class="icon"><i class="fa-solid fa-folder-open"></i></span>
+						<span class="text">Documents</span>
+					</a>
+				</li>
+				<li class="list-item">
+					<a href="#">
+						<span class="icon"><i class="fa-solid fa-gear"></i></span>
+						<span class="text">Settings</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</section>
+
+	<main>
+		<div class="cards">
+			<h2 class="h2">Visitor Management</h2>
+			<div class="columns">
+				<div class="col">
+					<div class="visitors">
+						<div class="flex">
+							<i class="fa-solid fa-users"></i>
+							<p>New Visitors</p>
+						</div>
+						<div class="count">
+							<p class="count">0</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="visitors">
+						<div class="flex">
+							<i class="fa-solid fa-user-secret"></i>
+							<p>Recent Visitors</p>
+						</div>
+						<div class="count">
+							<p class="count">0</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="visitors">
+						<div class="flex">
+							<i class="fa-solid fa-list-ol"></i>
+							<p>Visitors Count</p>
+						</div>
+						<div class="count">
+							<p class="count">0</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="cards">
+			<h2 class="h2">Document Management</h2>
+			<div class="columns">
+				<div class="col">
+					<div class="visitors">
+						<div class="flex">
+							<i class="fa-solid fa-folder-plus"></i>
+							<p>New Documents</p>
+						</div>
+						<div class="count">
+							<p class="count">0</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="visitors">
+						<div class="flex">
+							<i class="fa-solid fa-folder-open"></i>
+							<p>Recent Documents</p>
+						</div>
+						<div class="count">
+							<p class="count">0</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="visitors">
+						<div class="flex">
+							<i class="fa-solid fa-file"></i>
+							<p>Documents Count</p>
+						</div>
+						<div class="count">
+							<p class="count">0</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="cards">
+			<h2 class="h2">Account Management</h2>
+			<div class="columns">
+				<div class="col">
+					<div class="visitors">
+						<div class="flex">
+							<i class="fa-solid fa-right-to-bracket"></i>
+							<p>New Account</p>
+						</div>
+						<div class="count">
+							<p class="count">0</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="visitors">
+						<div class="flex">
+							<i class="fa-solid fa-trash-can"></i>
+							<p>Deleted Account</p>
+						</div>
+						<div class="count">
+							<p class="count">0</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="visitors">
+						<div class="flex">
+							<i class="fa-solid fa-person-circle-xmark"></i>
+							<p>Inactive Account</p>
+						</div>
+						<div class="count">
+							<p class="count">0</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+
+	<script src='index.js'></script>
+</body>
+</html>
+
+
+
+	
